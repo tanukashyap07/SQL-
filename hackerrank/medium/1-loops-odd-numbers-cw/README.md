@@ -77,7 +77,7 @@ The sixth integer was an odd number.
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-24T04:29:56.065Z  
+**Submitted:** 2026-08-24T04:47:14.964Z  
 
 ```java
 import java.util.*;
