@@ -59,7 +59,7 @@ Explanation:
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-24T04:57:35.987Z  
+**Submitted:** 2026-08-24T05:15:22.276Z  
 
 ```java
 import java.io.*;
