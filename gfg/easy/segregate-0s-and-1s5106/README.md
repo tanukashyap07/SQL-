@@ -25,7 +25,7 @@ Explanation: There are no 0s in the given array, so the modified array is [1, 1]
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-14T07:33:31.778Z  
+**Submitted:** 2026-09-14T07:46:47.868Z  
 
 ```java
 class Solution {
