@@ -62,25 +62,25 @@ It does not matter what you leave beyond the returned k (hence they are undersco
 ## Solution
 
 **Language:** Java  
-**Runtime:** 0 ms  
-**Memory:** 42.5 MB  
-**Submitted:** 2026-09-24T13:27:42.426Z  
+**Runtime:** 1 ms (beats 77.53%)  
+**Memory:** 46.4 MB (beats 91.08%)  
+**Submitted:** 2026-09-24T13:29:36.879Z  
 
 ```java
 class Solution {
     public int removeDuplicates(int[] nums) {
 
-        int[] arr = {1, 1, 2};
+        int k = 1;
 
-        Set<Integer> set = new TreeSet<>();
+        for (int i = 1; i < nums.length; i++) {
 
-        for (int i = 0; i < arr.length; i++) {
-            set.add(arr[i]);
+            if (nums[i] != nums[i - 1]) {
+                nums[k] = nums[i];
+                k++;
+            }
         }
 
-        System.out.println(set);
-
-        return set.size();
+        return k;
     }
 }
 ```
